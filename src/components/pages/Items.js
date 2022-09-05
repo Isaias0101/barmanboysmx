@@ -1,14 +1,11 @@
 import React from 'react'
-import Demo from './Demo'
 import SM from './Socialmedia'
 import BRv from './buttonreserv'
 import Bebidas from './Bebidas'
-import MuiPhoneNumber from 'material-ui-phone-number';
 import CreditScoreIcon from '@mui/icons-material/CreditScore';
 import CurrencyBitcoinIcon from '@mui/icons-material/CurrencyBitcoin';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import Ber from './ber.js'
-
 
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -80,7 +77,7 @@ const items = () => {
 
 <Box sx={{ flexGrow: 1 }}>
       <Grid container >
-        <Grid item xs={6} md={7}>
+        <Grid item xs={12} md={8}>
         <div className='left' style={{display: 'flex',  justifyContent:'auto', alignItems:'auto', margin: "auto"}} >
 
 <div className='left_inner'>
@@ -102,11 +99,11 @@ const items = () => {
         <Typography gutterBottom variant="h5" component="div" className='neon'>
           Paquete Accesible  $2800
         </Typography>
-        <Typography variant="h5" color="text.secondary">
+        <Typography variant="h5"  className='neon99'>
             100 cocteles <br></br>
             </Typography>
             
-            <Typography gutterBottom variant="h9" component="div">
+            <Typography gutterBottom variant="h9" component="div" className='neon91'>
             25 pz Medias de Seda <br></br>
             25 pz Conga <br></br>
             25 pz Desarmador <br></br>
@@ -115,10 +112,7 @@ const items = () => {
 
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
+  
     </Card>
     </Grid>
 
@@ -134,10 +128,10 @@ const items = () => {
       <Typography gutterBottom variant="h5" component="div" className='neon'>
           Paquete VIP  $3800
         </Typography>
-        <Typography variant="h5" color="text.secondary">
+        <Typography variant="h5" className='neon99'>
             100 cocteles <br></br>
             </Typography>
-            <Typography gutterBottom variant="h9" component="div">
+            <Typography gutterBottom variant="h9" component="div" className='neon91'>
             25 pz Alfonso 13 <br></br>
             25 pz Ruso Negro<br></br>
             25 pz Beso de Ángel <br></br>
@@ -147,8 +141,7 @@ const items = () => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+
       </CardActions>
     </Card>
     </Grid>
@@ -164,10 +157,10 @@ const items = () => {
       <Typography gutterBottom variant="h5" component="div" className='neon' >
           Paquete Standar  $3200
         </Typography>
-        <Typography variant="h5" color="text.secondary">
+        <Typography variant="h5" className='neon99'>
             100 cocteles <br></br>
             </Typography>
-            <Typography gutterBottom variant="h9" component="div">
+            <Typography gutterBottom variant="h9" component="div" className='neon91'>
             25 pz Green Demon <br></br>
             25 pz Piña Colada<br></br>
             25 pz Esp Pitufo <br></br>
@@ -177,8 +170,7 @@ const items = () => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+
       </CardActions>
     </Card>
         </Grid>
@@ -196,6 +188,7 @@ const items = () => {
   <Grid item xs={'auto'} md={'auto'} sm={'auto'}> 
 
   <Grid item xs={'auto'} className='set5'>
+
        <Box
       sx={{
         display: 'flex',
@@ -204,76 +197,55 @@ const items = () => {
       }}
     > 
 
-<MuiPhoneNumber
-   label="Contacto"
-defaultCountry='mx'
-regions={['america']}
-helperText="Numero de contacto"
-/>
+
     <TextField
   helperText="Escribe tú nombre"
   id="filled-size-small"
       
-          variant="filled"
+   
 
   size="small"
   label="Nombre"
 />           
           
+<TextField
+         helperText="Escribe tú numero de contacto"
+         id="filled-size-small"
+             
+          
+       
+         size="small"
+         label="Teléfono"
+
+        />
 
 
   
     </Box>
-    <br></br>
-    <Box
-      sx={{
-        display: 'flex',
-        alignItems: 'center',
-        '& > :not(style)': { m: 1 },
-      }}
-    > 
-    <TextField
-  helperText="Escribe tú direccion"
-  id="filled-size-small"
-      
-          variant="filled"
-
-  size="small"
-  label="Dirección"
-/> 
-<TextField
-           helperText="Total de personas en tú evento"
-           id="standard-number"
-           label="Number"
-           type="number"
-           InputLabelProps={{
-             shrink: true,
-           }}
-           variant="standard"
-        />
-    <br></br>
-    </Box>
+ 
   
     
        </Grid>
-
-      
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br> <br></br><br></br><br></br><br></br>
+    
+       <br></br><br></br><br></br><br></br><br></br><br></br><br></br> <br></br><br></br><br></br><br></br> <br></br><br></br><br></br><br></br>
+       <Ber/>
        <Ber/>
        </Grid>
- 
+      
 </div>
+
+
+   
 
 </div>
 </Grid>  
         </Grid>
-        <Grid item xs={6} md={4}>
-         
-        </Grid>
-        <Grid item xs={6} md={8}>
-         
-        </Grid>
+
+    
+  
       </Grid>
+      
+
     </Box>
 
 
