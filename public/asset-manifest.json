@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5438acb1.css",
+    "main.js": "/static/js/main.ed387e51.js",
+    "static/js/787.5cc005e4.chunk.js": "/static/js/787.5cc005e4.chunk.js",
+    "static/media/collaje2.jpg": "/static/media/collaje2.bae4d893b0e17643057c.jpg",
+    "static/media/collaje3.jpg": "/static/media/collaje3.c0a4e4e42b557ce7ebab.jpg",
+    "static/media/FotoJet.jpg": "/static/media/FotoJet.469cda67a69735d0688f.jpg",
+    "static/media/Bacardi.ico": "/static/media/Bacardi.4c80a940184cf6076ea1.ico",
+    "static/media/Mai-Tai.ico": "/static/media/Mai-Tai.8305f5f17fa30d098c65.ico",
+    "static/media/desarmador.png": "/static/media/desarmador.b04a3511fb5f38d4988e.png",
+    "static/media/conga.png": "/static/media/conga.b8e28a259cee9f4fb6fb.png",
+    "static/media/mds.png": "/static/media/mds.410f8e439608c7289660.png",
+    "static/media/outpu.png": "/static/media/outpu.ae002944d933eab6e90b.png",
+    "static/media/la.png": "/static/media/la.47c6ddf546b33d2ae441.png",
+    "static/media/WhiteR.png": "/static/media/WhiteR.1a0002fad560faf0ca59.png",
+    "index.html": "/index.html",
+    "main.5438acb1.css.map": "/static/css/main.5438acb1.css.map",
+    "main.ed387e51.js.map": "/static/js/main.ed387e51.js.map",
+    "787.5cc005e4.chunk.js.map": "/static/js/787.5cc005e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5438acb1.css",
+    "static/js/main.ed387e51.js"
+  ]
+}

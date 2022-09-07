@@ -4,7 +4,7 @@
 body {
 
 
-  background: linear-gradient(#e35f2f, #e11661);
+  background: linear-gradient(#3f2382, #3f2382);
   background-repeat: no-repeat;
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -17,7 +17,7 @@ body {
 }
 .body1 {
 
-  background: linear-gradient(90deg, #e49fd2 30%, #c67700 100%);
+  background: linear-gradient(120deg, #e49fd2 80%, #c67700 100%);
   animation: gradient 30.5s infinite 12s cubic-bezier(0.8, 0.8, 0.8, 1.2) forwards;
 
 }
@@ -760,10 +760,10 @@ a.follow:hover {
  }
 
 .set1 {
-  background: linear-gradient(to right, #ec38bc, #512d38);   
+  background: linear-gradient(to right, #3f2382,  #3f2382);   
   opacity: 0.8;  
   font-family: Myriad Pro;
-  color: white;
+  color: rgb(0, 0, 0);
  }
 
  .set2{
